@@ -37,7 +37,17 @@ Each module operates independently. To run the inference pipeline for a specific
 ```python camera_tail/inference_tail.py --weights camera_tail/models/best.pt```
 
 ## Performance & Results
-The system has been tested on real industrial bead footage. The performance/ folder contains sample output images from each module showing the detection and measurement results.
+The system has been tested on real industrial bead footage. The performance/ folder contains sample output images from each module.
+### Performance Summary
+
+| Camera | Focus Area                        | Classes | mAP50   | mAP50-95 | Status         |
+|--------|-----------------------------------|---------|---------|----------|----------------|
+| Front  | Geometric + Angular Analysis      | 5       | ~0.99   | ~0.88    | Excellent      |
+| Head   | Vertical Alignment + Regions      | 5       | ~1.00   | ~0.92    | Outstanding    |
+| Tail   | Wire Termination + Counting       | 3       | ~0.99   | ~0.82    | Very Strong    |
+
+Detailed model information → MODEL_CARD.md
+
 ### 1. Front Camera (Geometric & Angular Inspection)
 
 Accurate bead center & radius detection
