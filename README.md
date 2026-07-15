@@ -28,13 +28,13 @@ bead-inspection-system/
 Each module operates independently. To run the inference pipeline for a specific camera, use the following commands:
 
 ### Run Head Camera (Vertical Inspection)
-python camera_head/inference_head.py --weights camera_head/models/best.pt
+```python camera_head/inference_head.py --weights camera_head/models/best.pt```
 
 ### Run Front Camera (Geometric & Angular Inspection)
-python camera_front/inference_front.py --weights camera_front/models/best.pt
+```python camera_front/inference_front.py --weights camera_front/models/best.pt```
 
 ### Run Tail Camera (Bundle Termination Inspection)
-python camera_tail/inference_tail.py --weights camera_tail/models/best.pt
+```python camera_tail/inference_tail.py --weights camera_tail/models/best.pt```
 
 ## Performance & Results
 The system has been tested on real industrial bead footage. The performance/ folder contains sample output images from each module showing the detection and measurement results.
