@@ -69,4 +69,4 @@ python camera_tail/inference_tail.py --weights camera_tail/models/best.pt
 * Ultralytics YOLO: Deep learning-based object detection.
 
 ## Privacy & Data Policy
-This repository strictly contains no video or image assets. Source video files are excluded from version control to ensure data security. Users must provide local test data to run the inference scripts.
+This repository strictly contains no video or image assets. Source video files are excluded from version control to ensure data security.
