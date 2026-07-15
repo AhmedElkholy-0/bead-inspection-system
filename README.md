@@ -5,12 +5,23 @@ A modular computer vision solution for automated industrial bead inspection. Thi
 ## Project Architecture
 The system is built with a Modular Design pattern, separating logic for different inspection points to ensure scalability and ease of maintenance.
 ```
-/bead-inspection-system
-├── /camera_front    # Geometric & Angular Inspection
-├── /camera_head     # Vertical Inspection
-├── /camera_tail     # Bundle Termination Inspection
-├── requirements.txt
-└── README.md
+bead-inspection-system/
+├── camera_front/
+│   ├── models/
+│   └── inference_front.py
+├── camera_head/
+│   ├── models/
+│   └── inference_head.py
+├── camera_tail/
+│   ├── models/
+│   └── inference_tail.py
+├── performance/
+│   ├── front/
+│   ├── head/
+│   └── tail/
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ## Quick Start & Usage
