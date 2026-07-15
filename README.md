@@ -4,24 +4,25 @@ A modular computer vision solution for automated industrial bead inspection. Thi
 
 ## Project Architecture
 The system is built with a Modular Design pattern, separating logic for different inspection points to ensure scalability and ease of maintenance.
-
+```
 /bead-inspection-system
 ├── /camera_front    # Geometric & Angular Inspection
 ├── /camera_head     # Vertical Inspection
 ├── /camera_tail     # Bundle Termination Inspection
 ├── requirements.txt
 └── README.md
+```
 
 ## Quick Start & Usage
 Each module operates independently. To run the inference pipeline for a specific camera, use the following commands:
 
-# Run Head Camera (Vertical Inspection)
+### Run Head Camera (Vertical Inspection)
 python camera_head/inference_head.py --weights camera_head/models/best.pt
 
-# Run Front Camera (Geometric & Angular Inspection)
+### Run Front Camera (Geometric & Angular Inspection)
 python camera_front/inference_front.py --weights camera_front/models/best.pt
 
-# Run Tail Camera (Bundle Termination Inspection)
+### Run Tail Camera (Bundle Termination Inspection)
 python camera_tail/inference_tail.py --weights camera_tail/models/best.pt
 
 ## Technical Pipeline & Module Functionality
