@@ -60,7 +60,7 @@ Three specialized YOLO11 models for multi-view industrial bead quality inspectio
 
 ## Usage
 - Models are located in their respective folders: `camera_*/models/best.pt`
-- See `README.md` for inference instructions.
+- See [README.md/](README.md/)`README.md` for inference instructions.
 
 **Last Updated**: July 16, 2026  
 **License**: MIT
