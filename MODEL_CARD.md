@@ -14,7 +14,7 @@ Three specialized YOLO11 models for multi-view industrial bead quality inspectio
 ---
 
 ### 1. Front Camera Model
-**Classes**: `bead`, `clamp`, `head`, `tail`, `background`
+**Classes**: `bead`, `clamp`, `head`, `tail`, 
 
 **Performance**:
 - mAP50: ~0.99
@@ -27,7 +27,7 @@ Three specialized YOLO11 models for multi-view industrial bead quality inspectio
 ---
 
 ### 2. Head Camera Model
-**Classes**: `Region 1`, `Region 2`, `Region 3`, `head wires`, `background`
+**Classes**: `Region 1`, `Region 2`, `Region 3`, `head wires`
 
 **Performance**:
 - mAP50: ~1.00
@@ -40,7 +40,7 @@ Three specialized YOLO11 models for multi-view industrial bead quality inspectio
 ---
 
 ### 3. Tail Camera Model
-**Classes**: `Tail_wire`, `clamp`, `background`
+**Classes**: `Tail_wire`, `clamp`
 
 **Performance**:
 - mAP50: ~0.99
@@ -53,15 +53,10 @@ Three specialized YOLO11 models for multi-view industrial bead quality inspectio
 ---
 
 ## Training Highlights
-- All models trained on real factory data with augmentations (rotation, brightness, noise, etc.).
+- All models trained on real factory data.
 - Stable convergence and high final metrics.
 - Strong performance on dominant industrial classes (clamps & wires).
 - Minor confusion mainly between visually similar classes (expected and acceptable).
-
-## Limitations
-- Performance may vary under extreme lighting conditions or with new bead variants.
-- Recommended to perform periodic fine-tuning when introducing new product types.
-- Real-time speed (FPS) should be benchmarked on target deployment hardware (expected range: 25-40 FPS).
 
 ## Usage
 - Models are located in their respective folders: `camera_*/models/best.pt`
