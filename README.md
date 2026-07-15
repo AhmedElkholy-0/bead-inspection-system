@@ -2,6 +2,7 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![YOLO](https://img.shields.io/badge/YOLO11-00A3E0?style=flat&logo=ultralytics&logoColor=white)](https://ultralytics.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+[![Roboflow](https://img.shields.io/badge/Roboflow-20c5f7?style=flat&logo=roboflow&logoColor=white)](https://roboflow.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A modular computer vision solution for automated industrial tire bead inspection (specifically steel wire bundles). This system leverages YOLO-based object detection to perform precise, real-time measurements across different camera perspectives (Front, Head, and Tail), ensuring high-quality control in manufacturing pipelines.
