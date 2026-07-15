@@ -1,6 +1,6 @@
-# Bead Inspection System
+# Tire Bead Inspection System
 
-A modular computer vision solution for automated industrial bead inspection. This system leverages YOLO-based object detection to perform precise, real-time measurements across different camera perspectives (Front, Head, and Tail), ensuring high-quality control in manufacturing pipelines.
+A modular computer vision solution for automated industrial tire bead inspection (specifically steel wire bundles). This system leverages YOLO-based object detection to perform precise, real-time measurements across different camera perspectives (Front, Head, and Tail), ensuring high-quality control in manufacturing pipelines.
 
 ## Project Architecture
 The system is built with a Modular Design pattern, separating logic for different inspection points to ensure scalability and ease of maintenance.
