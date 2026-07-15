@@ -66,14 +66,14 @@ Vertical perpendicular distance measurement
 Bundle height consistency tracking
 Region-based structural analysis
 
-(See performance/head/ for result images)
+(See [performance/head/](performance/head/) for result images)
 ### 3. Tail Camera (Termination Quality)
 
 X-axis double-detection suppression (NMS)
 Accurate wire counting
 Clamp-to-wire termination gap measurement
 
-(See performance/tail/ for result images)
+(See [performance/tail/](performance/tail/) for result images)
 
 ## Technical Pipeline & Module Functionality
 
