@@ -59,6 +59,7 @@ Smart clamp filtering and angular measurements
 Strict 4-clamp overlap validation
 
 (See performance/front/ for result images)
+(See [performance/front/] (performance/front/)** for result images)
 ### 2. Head Camera (Vertical Alignment)
 
 Vertical perpendicular distance measurement
