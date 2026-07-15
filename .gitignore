@@ -1,0 +1,21 @@
+# ignore media files
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# ignore model weights
+*.pt
+*.pth
+
+# ignore python cache
+__pycache__/
+*.pyc
+
+# ignore environment and secrets
+.env
+.DS_Store
+
+# استثناء ملفات النتائج (Metrics)
+!/assets/metrics/*.png
+!/assets/metrics/*.jpg
