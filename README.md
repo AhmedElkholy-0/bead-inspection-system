@@ -4,7 +4,7 @@ A modular computer vision solution for automated industrial tire bead inspection
 
 ## Project Architecture
 The system is built with a Modular Design pattern, separating logic for different inspection points to ensure scalability and ease of maintenance.
-```
+```bash
 bead-inspection-system/
 ├── camera_front/
 │   ├── models/
