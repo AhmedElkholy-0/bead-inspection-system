@@ -36,6 +36,30 @@ python camera_front/inference_front.py --weights camera_front/models/best.pt
 ### Run Tail Camera (Bundle Termination Inspection)
 python camera_tail/inference_tail.py --weights camera_tail/models/best.pt
 
+## Performance & Results
+The system has been tested on real industrial bead footage. The performance/ folder contains sample output images from each module showing the detection and measurement results.
+### 1. Front Camera (Geometric & Angular Inspection)
+
+Accurate bead center & radius detection
+Smart clamp filtering and angular measurements
+Strict 4-clamp overlap validation
+
+(See performance/front/ for result images)
+### 2. Head Camera (Vertical Alignment)
+
+Vertical perpendicular distance measurement
+Bundle height consistency tracking
+Region-based structural analysis
+
+(See performance/head/ for result images)
+### 3. Tail Camera (Termination Quality)
+
+X-axis double-detection suppression (NMS)
+Accurate wire counting
+Clamp-to-wire termination gap measurement
+
+(See performance/tail/ for result images)
+
 ## Technical Pipeline & Module Functionality
 
 ### 1. Head Camera (Vertical Inspection)
@@ -69,4 +93,4 @@ python camera_tail/inference_tail.py --weights camera_tail/models/best.pt
 * Ultralytics YOLO: Deep learning-based object detection.
 
 ## Privacy & Data Policy
-This repository strictly contains no video or image assets. Source video files are excluded from version control to ensure data security.
+This repository strictly contains no video or image assets from the original source. Source video files are excluded from version control to ensure data security. Only processed result images (without sensitive content) are included in the performance/ folder.
